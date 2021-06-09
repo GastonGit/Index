@@ -79,3 +79,23 @@
 .Project-link:active {
   color: #ff5944;
 }
+
+.Header-link {
+  text-decoration: none;
+}
+
+.Header-link:link {
+  color: #a64942;
+}
+
+.Header-link:visited {
+  color: #e7554a;
+}
+
+.Header-link:hover {
+  color: #ffffff;
+}
+
+.Header-link:active {
+  color: #51c649;
+}

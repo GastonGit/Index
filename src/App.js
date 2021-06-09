@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
         <header className="Head">
-            <p>
+            <a href="https://github.com/GastonGit" className="Header-link" >
                 GastonGit
-            </p>
+            </a>
         </header>
       <div className="Projects">
           <div className="Project">
