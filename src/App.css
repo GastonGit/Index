@@ -59,6 +59,12 @@
   color: #ff7844;
 }
 
+.Project-progress {
+  color: #e35a48;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
 
 .Project-link {
   text-decoration: none;

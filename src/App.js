@@ -33,6 +33,7 @@ export default class App extends React.Component {
                         <div className="Project">
                             <p className="Project-name">Hot Twitch Clips</p>
                             <p className="Project-description">Automatically clips exciting and funny moments from Twitch in real-time</p>
+                            <i className="Project-progress">In Maintenance</i>
                             <a className="Project-link" href="/hotclips">Live Example</a>
                             <a className="Project-link" href="https://github.com/GastonGit/Hot-Twitch-Clips">Github</a>
                         </div>
@@ -41,6 +42,7 @@ export default class App extends React.Component {
                         <div className="Project">
                             <p className="Project-name">HangulTrainer</p>
                             <p className="Project-description">A simple game for learning the korean alphabet <i>hangul</i>.</p>
+                            <i className="Project-progress">In Planning</i>
                             {/*<a className="Project-link" href="/">Live Example</a>*/}
                             <a className="Project-link" href="https://github.com/GastonGit/HangulTrainer">Github</a>
                         </div>
