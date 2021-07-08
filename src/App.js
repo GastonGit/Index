@@ -42,7 +42,7 @@ export default class App extends React.Component {
                         <div className="Project">
                             <p className="Project-name">HangulTrainer</p>
                             <p className="Project-description">A simple game for learning the korean alphabet <i>hangul</i>.</p>
-                            <i className="Project-progress">In planning</i>
+                            <i className="Project-progress">In the early stages of development</i>
                             {/*<a className="Project-link" href="/">Live Example</a>*/}
                             <a className="Project-link" href="https://github.com/GastonGit/HangulTrainer">Github</a>
                         </div>
