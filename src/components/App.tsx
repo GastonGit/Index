@@ -2,7 +2,16 @@ import React from 'react';
 import '../styles/App.css';
 import { Fade } from '@material-ui/core';
 
+interface Project {
+    name: string;
+    desc: string;
+    progress: string;
+    liveUrl: string | null;
+    github: string;
+}
+
 interface AppState {
+    projects: Array<Project>;
     fade1: boolean;
     fade2: boolean;
 }
@@ -10,7 +19,7 @@ interface AppState {
 export default class App extends React.Component<unknown, AppState> {
     constructor(props: unknown) {
         super(props);
-        this.state = { fade1: false, fade2: false };
+        this.state = { projects: [], fade1: false, fade2: false };
     }
 
     componentDidMount(): void {
@@ -24,7 +33,7 @@ export default class App extends React.Component<unknown, AppState> {
     }
 
     render(): JSX.Element {
-        const data = [
+        const projects = [
             {
                 name: 'Hot Twitch Clips',
                 desc: 'Automatically clips exciting and funny moments from Twitch in real-time',
@@ -54,44 +63,50 @@ export default class App extends React.Component<unknown, AppState> {
                 <div className="Projects">
                     <Fade in={this.state.fade1}>
                         <div className="Project">
-                            <p className="Project-name">{data[0].name}</p>
+                            <p className="Project-name">{projects[0].name}</p>
                             <p className="Project-description">
-                                {data[0].desc}
+                                {projects[0].desc}
                             </p>
                             <i className="Project-progress">
-                                {data[0].progress}
+                                {projects[0].progress}
                             </i>
-                            {data[0].liveUrl !== null && (
+                            {projects[0].liveUrl !== null && (
                                 <a
                                     className="Project-link"
-                                    href={data[0].liveUrl}
+                                    href={projects[0].liveUrl}
                                 >
                                     Live Example
                                 </a>
                             )}
-                            <a className="Project-link" href={data[0].github}>
+                            <a
+                                className="Project-link"
+                                href={projects[0].github}
+                            >
                                 Github
                             </a>
                         </div>
                     </Fade>
                     <Fade in={this.state.fade2}>
                         <div className="Project">
-                            <p className="Project-name">{data[1].name}</p>
+                            <p className="Project-name">{projects[1].name}</p>
                             <p className="Project-description">
-                                {data[1].desc}
+                                {projects[1].desc}
                             </p>
                             <i className="Project-progress">
-                                {data[1].progress}
+                                {projects[1].progress}
                             </i>
-                            {data[1].liveUrl !== null && (
+                            {projects[1].liveUrl !== null && (
                                 <a
                                     className="Project-link"
-                                    href={data[1].liveUrl}
+                                    href={projects[1].liveUrl}
                                 >
                                     Live Example
                                 </a>
                             )}
-                            <a className="Project-link" href={data[1].github}>
+                            <a
+                                className="Project-link"
+                                href={projects[1].github}
+                            >
                                 Github
                             </a>
                         </div>
