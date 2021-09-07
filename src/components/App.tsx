@@ -3,14 +3,12 @@ import '../styles/App.css';
 
 interface AppState {
     projects: Array<JSX.Element>;
-    fade1: boolean;
-    fade2: boolean;
 }
 
 export default class App extends React.Component<unknown, AppState> {
     constructor(props: unknown) {
         super(props);
-        this.state = { projects: [], fade1: false, fade2: false };
+        this.state = { projects: [] };
         this.getProjects = this.getProjects.bind(this);
     }
 
