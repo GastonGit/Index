@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
+import FadeIn from 'react-fade-in';
 
 interface AppState {
     projects: Array<JSX.Element>;
@@ -67,7 +68,9 @@ export default class App extends React.Component<unknown, AppState> {
                         GastonGit
                     </a>
                 </header>
-                <div className="Projects">{projects}</div>
+                <div className="Projects">
+                    <FadeIn delay={300}>{projects}</FadeIn>
+                </div>
             </div>
         );
     }
