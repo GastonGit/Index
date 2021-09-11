@@ -13,6 +13,8 @@ export default class App extends React.Component<unknown, AppState> {
         this.getProjects = this.getProjects.bind(this);
     }
 
+    private fadeInDelay = 300;
+
     componentDidMount(): void {
         this.getProjects();
     }
@@ -69,7 +71,7 @@ export default class App extends React.Component<unknown, AppState> {
                     </a>
                 </header>
                 <div className="Projects">
-                    <FadeIn delay={300}>{projects}</FadeIn>
+                    <FadeIn delay={this.fadeInDelay}>{projects}</FadeIn>
                 </div>
             </div>
         );
