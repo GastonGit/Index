@@ -12,5 +12,19 @@
     "progress": "In development",
     "liveUrl": null,
     "github": "https://github.com/GastonGit/HangulTrainer"
+  },
+  {
+    "name": "node-typescript-boilerplate",
+    "desc": "My personal boilerplate for back-end purposes",
+    "progress": "In development",
+    "liveUrl": null,
+    "github": "https://github.com/GastonGit/node-typescript-boilerplate"
+  },
+  {
+    "name": "react-typescript-boilerplate",
+    "desc": "My personal boilerplate for front-end purposes",
+    "progress": "In development",
+    "liveUrl": null,
+    "github": "https://github.com/GastonGit/react-typescript-boilerplate"
   }
 ]
