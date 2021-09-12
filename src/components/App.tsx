@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/App.css';
 import FadeIn from 'react-fade-in';
+import projects from '../projectData.json';
 
 interface AppState {
     projects: Array<JSX.Element>;
@@ -20,24 +21,6 @@ export default class App extends React.Component<unknown, AppState> {
     }
 
     getProjects(): void {
-        // TODO: this should be fetched from a database
-        const projects = [
-            {
-                name: 'Hot Twitch Clips',
-                desc: 'Automatically clips exciting and funny moments from Twitch in real-time',
-                progress: 'In the final stages of development',
-                liveUrl: '/hotclips',
-                github: 'https://github.com/GastonGit/Hot-Twitch-Clips',
-            },
-            {
-                name: 'HangulTrainer',
-                desc: 'A simple game for learning the korean alphabet hangul.',
-                progress: 'In development',
-                liveUrl: null,
-                github: 'https://github.com/GastonGit/HangulTrainer',
-            },
-        ];
-
         this.setState({
             projects: projects.map((project, index) => (
                 <div className="Project" key={'project-' + index}>
