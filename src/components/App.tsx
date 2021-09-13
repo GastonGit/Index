@@ -29,7 +29,7 @@ export default class App extends React.Component<unknown, AppState> {
                     <i className="Project-progress">{project.progress}</i>
                     {project.liveUrl !== null && (
                         <a className="Project-link" href={project.liveUrl}>
-                            Live Example
+                            Releases
                         </a>
                     )}
                     <a className="Project-link" href={project.github}>
