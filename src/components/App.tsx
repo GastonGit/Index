@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/App.css';
 import Projects from './Projects';
+import Header from './Header';
 
 export default class App extends React.Component<unknown, unknown> {
     constructor(props: unknown) {
@@ -11,14 +12,7 @@ export default class App extends React.Component<unknown, unknown> {
     render(): JSX.Element {
         return (
             <div className="App">
-                <header className="Head">
-                    <a
-                        href="https://github.com/GastonGit"
-                        className="Header-link"
-                    >
-                        GastonGit
-                    </a>
-                </header>
+                <Header />
                 <Projects />
             </div>
         );
