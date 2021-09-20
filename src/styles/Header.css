@@ -1,0 +1,42 @@
+.Head {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-size: 50px;
+    color: #ff444e;
+}
+
+.HeaderContent {
+    height: 80%;
+    width: 96%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.Header-link {
+    text-decoration: none;
+}
+
+.Header-link:link {
+    color: #a64942;
+}
+
+.Header-link:visited {
+    color: #e7554a;
+}
+
+.Header-link:hover {
+    color: #ffffff;
+}
+
+.Header-link:active {
+    color: #51c649;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/App.css';
+import '../styles/Projects.css';
 import FadeIn from 'react-fade-in';
 import projects from '../projectData.json';
 
