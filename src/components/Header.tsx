@@ -5,9 +5,14 @@ export default class Header extends React.Component<unknown, unknown> {
     render(): JSX.Element {
         return (
             <header className="Head">
-                <a href="https://github.com/GastonGit" className="Header-link">
-                    GastonGit
-                </a>
+                <div className="HeaderContent">
+                    <a
+                        href="https://github.com/GastonGit"
+                        className="Header-link"
+                    >
+                        GastonGit
+                    </a>
+                </div>
             </header>
         );
     }

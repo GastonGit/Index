@@ -18,16 +18,25 @@
 
 .Head {
     height: 10%;
-    width: 60%;
+    width: 100%;
 
     display: flex;
     justify-content: center;
-    align-items: stretch;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
 
     font-size: 50px;
     color: #ff444e;
-    margin-bottom: 50px;
+}
+
+.HeaderContent {
+    height: 80%;
+    width: 96%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
 }
 
 .Projects {
