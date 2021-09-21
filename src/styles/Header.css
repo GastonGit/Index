@@ -7,8 +7,7 @@
     align-items: center;
     flex-direction: row;
 
-    color: #ff444e;
-    background-color: #282d54;
+    background-color: var(--secondary-bg-color);
 }
 
 .HeaderContent {
@@ -27,17 +26,17 @@
 }
 
 .Header-link:link {
-    color: #a64942;
+    color: var(--main-title-color);
 }
 
 .Header-link:visited {
-    color: #e7554a;
+    color: var(--main-title-color);
 }
 
 .Header-link:hover {
-    color: #ffffff;
+    color: var(--secondary-title-color);
 }
 
 .Header-link:active {
-    color: #51c649;
+    color: var(--main-title-color);
 }
