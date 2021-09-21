@@ -44,9 +44,9 @@ export default class Projects extends React.Component<unknown, AppState> {
         const { projects } = this.state;
 
         return (
-            <div className="Projects">
-                <FadeIn delay={this.fadeInDelay}>{projects}</FadeIn>
-            </div>
+            <FadeIn delay={this.fadeInDelay} className="Projects">
+                {projects}
+            </FadeIn>
         );
     }
 }
