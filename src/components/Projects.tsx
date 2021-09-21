@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
 import FadeIn from 'react-fade-in';
+import { Grid } from '@material-ui/core/';
 import projects from '../projectData.json';
 
 interface AppState {
@@ -23,19 +24,21 @@ export default class Projects extends React.Component<unknown, AppState> {
     getProjects(): void {
         this.setState({
             projects: projects.map((project, index) => (
-                <div className="Project" key={'project-' + index}>
-                    <p className="Project-name">{project.name}</p>
-                    <p className="Project-description">{project.desc}</p>
-                    <i className="Project-progress">{project.progress}</i>
-                    {project.liveUrl !== null && (
-                        <a className="Project-link" href={project.liveUrl}>
-                            Releases
+                <Grid item xs={12} md={3}>
+                    <div className="Project" key={'project-' + index}>
+                        <p className="Project-name">{project.name}</p>
+                        <p className="Project-description">{project.desc}</p>
+                        <i className="Project-progress">{project.progress}</i>
+                        {project.liveUrl !== null && (
+                            <a className="Project-link" href={project.liveUrl}>
+                                Releases
+                            </a>
+                        )}
+                        <a className="Project-link" href={project.github}>
+                            Github
                         </a>
-                    )}
-                    <a className="Project-link" href={project.github}>
-                        Github
-                    </a>
-                </div>
+                    </div>
+                </Grid>
             )),
         });
     }
@@ -44,8 +47,10 @@ export default class Projects extends React.Component<unknown, AppState> {
         const { projects } = this.state;
 
         return (
-            <FadeIn delay={this.fadeInDelay} className="Projects">
-                {projects}
+            <FadeIn className="Projects">
+                <Grid container spacing={0}>
+                    {projects}
+                </Grid>
             </FadeIn>
         );
     }
