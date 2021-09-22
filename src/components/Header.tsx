@@ -8,10 +8,7 @@ export default class Header extends React.Component<unknown, unknown> {
             <header className="Head">
                 <div className="HeaderContent">
                     <div className="HeaderContentMain">
-                        <a
-                            href="https://github.com/GastonGit"
-                            className="Header-link"
-                        >
+                        <a href="/" className="Header-link">
                             GastonGit
                         </a>
                         <a
