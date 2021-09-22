@@ -20,9 +20,29 @@
     flex-direction: row;
 }
 
+.HeaderContentMain {
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HeaderItem {
+    height: 60%;
+}
+
+.HeaderItem > img{
+    height: 100%;
+}
+
+
 .Header-link {
     font-size: 200%;
     text-decoration: none;
+    margin-right: 12px;
 }
 
 .Header-link:link {
