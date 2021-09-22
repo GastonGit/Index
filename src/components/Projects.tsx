@@ -47,7 +47,7 @@ export default class Projects extends React.Component<unknown, AppState> {
         const { projects } = this.state;
 
         return (
-            <FadeIn className="Projects">
+            <FadeIn className="Projects" delay={this.fadeInDelay}>
                 <Grid container spacing={0}>
                     {projects}
                 </Grid>
