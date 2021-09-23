@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: stretch;
     flex-direction: column;
+
+    border: solid var(--secondary-title-color);
+    border-radius: 5px;
 }
 
 .Project-name {
