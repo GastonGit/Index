@@ -6,6 +6,10 @@
   #45A29E
  */
 
+* {
+  font-family: 'Play', sans-serif;
+}
+
 :root {
   --main-bg-color: #0B0C10;
   --secondary-bg-color: #1F2833;
