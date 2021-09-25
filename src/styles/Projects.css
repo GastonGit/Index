@@ -11,6 +11,8 @@
 
     border: solid var(--secondary-title-color);
     border-radius: 5px;
+
+    min-height: 120px;
 }
 
 .Project-name {
