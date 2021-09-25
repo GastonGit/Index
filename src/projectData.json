@@ -2,28 +2,24 @@
   {
     "name": "Hot Twitch Clips",
     "desc": "Automatically clips exciting and funny moments from Twitch in real-time",
-    "progress": "In the final stages of development",
     "liveUrl": "/hotclips",
     "github": "https://github.com/GastonGit/Hot-Twitch-Clips"
   },
   {
     "name": "HangulTrainer",
     "desc": "A simple game for learning the korean alphabet hangul.",
-    "progress": "In development",
     "liveUrl": "https://github.com/GastonGit/HangulTrainer/releases/tag/v0.1.1",
     "github": "https://github.com/GastonGit/HangulTrainer"
   },
   {
     "name": "node-typescript-boilerplate",
     "desc": "My personal boilerplate for back-end purposes",
-    "progress": "In development",
     "liveUrl": null,
     "github": "https://github.com/GastonGit/node-typescript-boilerplate"
   },
   {
     "name": "react-typescript-boilerplate",
     "desc": "My personal boilerplate for front-end purposes",
-    "progress": "In development",
     "liveUrl": null,
     "github": "https://github.com/GastonGit/react-typescript-boilerplate"
   }

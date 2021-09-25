@@ -28,7 +28,6 @@ export default class Projects extends React.Component<unknown, AppState> {
                     <div className="Project" key={'project-' + index}>
                         <p className="Project-name">{project.name}</p>
                         <p className="Project-description">{project.desc}</p>
-                        <i className="Project-progress">{project.progress}</i>
                         {project.liveUrl !== null && (
                             <a className="Project-link" href={project.liveUrl}>
                                 Releases
