@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Description.css.css';
+import '../styles/Description.css';
 import FadeIn from 'react-fade-in';
 
 export default class Description extends React.Component<unknown, unknown> {
