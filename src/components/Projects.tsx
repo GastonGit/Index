@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
 import FadeIn from 'react-fade-in';
-import { Grid } from '@material-ui/core/';
+import Grid from '@mui/material/Grid';
 import projects from '../projectData.json';
 
 interface AppState {
