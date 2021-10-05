@@ -15,7 +15,7 @@ export default class Projects extends React.Component<unknown, AppState> {
         this.getProjects = this.getProjects.bind(this);
     }
 
-    private fadeInDelay = 300;
+    private fadeInDelay = 500;
 
     componentDidMount(): void {
         this.getProjects();
