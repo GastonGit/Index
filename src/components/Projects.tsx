@@ -28,14 +28,19 @@ export default class Projects extends React.Component<unknown, AppState> {
                     <div className="Project" key={'project-' + index}>
                         <p className="Project-name">{project.name}</p>
                         <p className="Project-description">{project.desc}</p>
-                        {project.liveUrl !== null && (
-                            <a className="Project-link" href={project.liveUrl}>
-                                Releases
+                        <div className="Project-links">
+                            {project.liveUrl !== null && (
+                                <a
+                                    className="Project-link"
+                                    href={project.liveUrl}
+                                >
+                                    Releases
+                                </a>
+                            )}
+                            <a className="Project-link" href={project.github}>
+                                Github
                             </a>
-                        )}
-                        <a className="Project-link" href={project.github}>
-                            Github
-                        </a>
+                        </div>
                     </div>
                 </Grid>
             )),
