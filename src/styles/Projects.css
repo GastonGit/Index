@@ -9,8 +9,8 @@
     align-items: stretch;
     flex-direction: column;
 
-    border: solid var(--secondary-title-color);
-    border-radius: 5px;
+    border: 2px solid var(--secondary-title-color);
+    border-radius: 1px;
 
     min-height: 120px;
 }
