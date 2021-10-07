@@ -22,5 +22,11 @@
     "desc": "My personal boilerplate for front-end purposes",
     "liveUrl": null,
     "github": "https://github.com/GastonGit/react-typescript-boilerplate"
+  },
+  {
+    "name": "GastonGit",
+    "desc": "This website",
+    "liveUrl": "https://gastongit.com",
+    "github": "https://github.com/GastonGit/Index"
   }
 ]
