@@ -15,3 +15,10 @@
 
     width: 90%;
 }
+
+.FlexCenter {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
