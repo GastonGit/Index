@@ -8,7 +8,7 @@ export default class Description extends React.Component<unknown, unknown> {
         this.state = {};
     }
 
-    private fadeInDelay = 60;
+    private fadeInDelay = 250;
 
     render(): JSX.Element {
         return (
