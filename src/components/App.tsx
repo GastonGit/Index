@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
 import Projects from './Projects';
-import Header from './Header';
 import Description from './Description';
 
 export default class App extends React.Component<unknown, unknown> {
@@ -13,7 +12,6 @@ export default class App extends React.Component<unknown, unknown> {
     render(): JSX.Element {
         return (
             <div className="App">
-                <Header />
                 <Description />
                 <Projects />
             </div>
