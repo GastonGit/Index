@@ -5,3 +5,13 @@
     align-items: center;
     flex-direction: column;
 }
+
+.AppContent {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    width: 90%;
+}

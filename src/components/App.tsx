@@ -12,8 +12,10 @@ export default class App extends React.Component<unknown, unknown> {
     render(): JSX.Element {
         return (
             <div className="App">
-                <Description />
-                <Projects />
+                <div className="AppContent">
+                    <Description />
+                    <Projects />
+                </div>
             </div>
         );
     }
