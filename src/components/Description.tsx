@@ -12,8 +12,11 @@ export default class Description extends React.Component<unknown, unknown> {
 
     render(): JSX.Element {
         return (
-            <FadeIn className="DescriptionTitle" delay={this.fadeInDelay}>
-                <p>Welcome to GastonGit!</p>
+            <FadeIn className="DescriptionText" delay={this.fadeInDelay}>
+                <p>
+                    This website showcases my most current projects. Feel free
+                    to check out the releases and live examples.
+                </p>
             </FadeIn>
         );
     }
