@@ -5,7 +5,7 @@ import githubLogo from '../assets/GitHub-Mark-Light-120px-plus.png';
 export default class Header extends React.Component<unknown, unknown> {
     render(): JSX.Element {
         return (
-            <header className="Head">
+            <header className="Header">
                 <div className="HeaderContent">
                     <div className="HeaderContentMain">
                         <a href="/" className="Header-link">

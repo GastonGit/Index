@@ -1,13 +1,13 @@
-.Head {
+.Header {
+    background-color: var(--secondary-bg-color);
+
     height: 60px;
     width: 100vw;
 
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
-
-    background-color: var(--secondary-bg-color);
+    justify-content: center;
 }
 
 .HeaderContent {
@@ -15,9 +15,9 @@
     width: 96%;
 
     display: flex;
-    justify-content: space-between;
     align-items: stretch;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .HeaderContentMain {
@@ -25,9 +25,9 @@
     width: 15%;
 
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .HeaderItem {
@@ -41,8 +41,8 @@
 
 .Header-link {
     font-size: 200%;
-    text-decoration: none;
     margin-right: 12px;
+    text-decoration: none;
 }
 
 .Header-link:link {

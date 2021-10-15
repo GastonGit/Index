@@ -1,45 +1,50 @@
 .Projects {
-    margin-top: 20px;
     width: 90%;
+
+    margin-top: 20px;
 }
 
 .Project {
+    min-height: 120px;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
 
     border: 2px solid var(--secondary-title-color);
     border-radius: 1px;
-
-    min-height: 120px;
 }
 
 .Project-name {
     color: var(--main-title-color);
+
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 5px;
 }
 
 .Project-description {
+    color: var(--main-text-color);
+
+    max-width: 92%;
+
     margin-top: 5px;
     margin-bottom: 10px;
-    max-width: 92%;
-    color: var(--main-text-color);
 }
 
 .Project-progress {
     color: var(--main-text-color);
+
     margin-top: 5px;
     margin-bottom: 0;
 }
 
 .Project-links {
     display: flex;
-    justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .Project-link {

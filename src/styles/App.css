@@ -1,19 +1,19 @@
 .App {
-    text-align: center;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
 }
 
 .AppContent {
-    width: 90%;
     max-width: 90%;
+    width: 90%;
 }
 
 .FlexCenter {
-    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
