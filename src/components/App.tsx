@@ -13,10 +13,10 @@ export default class App extends React.Component<unknown, unknown> {
 
     render(): JSX.Element {
         return (
-            <div className="App">
+            <div className="app">
                 <Grid
                     container
-                    className="AppContent"
+                    className="app__content"
                     rowSpacing={{ xs: 0, md: 3 }}
                 >
                     <Grid item xs={12} md={12}>
@@ -25,7 +25,7 @@ export default class App extends React.Component<unknown, unknown> {
                     <Grid item xs={12} md={4}>
                         <Description />
                     </Grid>
-                    <Grid item className="FlexCenter" xs={12} md={8}>
+                    <Grid item className="flex--center" xs={12} md={8}>
                         <Projects />
                     </Grid>
                 </Grid>

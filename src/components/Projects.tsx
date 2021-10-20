@@ -25,19 +25,19 @@ export default class Projects extends React.Component<unknown, AppState> {
         this.setState({
             projects: projects.map((project, index) => (
                 <Grid item xs={12} md={6}>
-                    <div className="Project" key={'project-' + index}>
-                        <p className="Project-name">{project.name}</p>
-                        <p className="Project-description">{project.desc}</p>
-                        <div className="Project-links">
+                    <div className="project" key={'project-' + index}>
+                        <p className="project__name">{project.name}</p>
+                        <p className="project__description">{project.desc}</p>
+                        <div className="project__links">
                             {project.liveUrl !== null && (
                                 <a
-                                    className="Project-link"
+                                    className="project__link"
                                     href={project.liveUrl}
                                 >
                                     Releases
                                 </a>
                             )}
-                            <a className="Project-link" href={project.github}>
+                            <a className="project__link" href={project.github}>
                                 Github
                             </a>
                         </div>
@@ -51,7 +51,7 @@ export default class Projects extends React.Component<unknown, AppState> {
         const { projects } = this.state;
 
         return (
-            <FadeIn className="Projects" delay={this.fadeInDelay}>
+            <FadeIn className="projects" delay={this.fadeInDelay}>
                 <Grid container spacing={1}>
                     {projects}
                 </Grid>

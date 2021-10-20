@@ -12,7 +12,7 @@ export default class Welcome extends React.Component<unknown, unknown> {
 
     render(): JSX.Element {
         return (
-            <FadeIn className="WelcomeTitle" delay={this.fadeInDelay}>
+            <FadeIn className="welcome__title" delay={this.fadeInDelay}>
                 <p>Welcome to GastonGit!</p>
             </FadeIn>
         );

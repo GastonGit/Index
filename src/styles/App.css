@@ -1,4 +1,4 @@
-.App {
+.app {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -6,12 +6,12 @@
     text-align: center;
 }
 
-.AppContent {
+.app__content {
     max-width: 90%;
     width: 90%;
 }
 
-.FlexCenter {
+.flex--center {
     display: flex;
     align-items: center;
     justify-content: center;

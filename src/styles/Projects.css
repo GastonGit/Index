@@ -1,10 +1,10 @@
-.Projects {
+.projects {
     width: 90%;
 
     margin-top: 20px;
 }
 
-.Project {
+.project {
     min-height: 120px;
 
     display: flex;
@@ -16,7 +16,7 @@
     border-radius: 1px;
 }
 
-.Project-name {
+.project__name {
     color: var(--main-title-color);
 
     font-size: 20px;
@@ -24,7 +24,7 @@
     margin-bottom: 5px;
 }
 
-.Project-description {
+.project__description {
     color: var(--main-text-color);
 
     max-width: 92%;
@@ -33,36 +33,36 @@
     margin-bottom: 10px;
 }
 
-.Project-progress {
+.project__progress {
     color: var(--main-text-color);
 
     margin-top: 5px;
     margin-bottom: 0;
 }
 
-.Project-links {
+.project__links {
     display: flex;
     align-items: stretch;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.Project-link {
+.project__link {
     text-decoration: none;
 }
 
-.Project-link:link {
+.project__link:link {
     color: var(--secondary-title-color);
 }
 
-.Project-link:visited {
+.project__link:visited {
     color: var(--secondary-title-color);
 }
 
-.Project-link:hover {
+.project__link:hover {
     color: var(--main-title-color);
 }
 
-.Project-link:active {
+.project__link:active {
     color: var(--secondary-title-color);
 }

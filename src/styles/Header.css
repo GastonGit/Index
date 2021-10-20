@@ -1,4 +1,4 @@
-.Header {
+.header {
     background-color: var(--secondary-bg-color);
 
     height: 60px;
@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.HeaderContent {
+.header__content {
     height: 80%;
     width: 96%;
 
@@ -20,7 +20,7 @@
     justify-content: space-between;
 }
 
-.HeaderContentMain {
+.header__content__main {
     height: 100%;
     width: 15%;
 
@@ -30,33 +30,32 @@
     justify-content: flex-start;
 }
 
-.HeaderItem {
+.header__item {
     height: 60%;
 }
 
-.HeaderItem > img{
+.header__item > img{
     height: 100%;
 }
 
-
-.Header-link {
+.header__link {
     font-size: 200%;
     margin-right: 12px;
     text-decoration: none;
 }
 
-.Header-link:link {
+.header__link:link {
     color: var(--main-title-color);
 }
 
-.Header-link:visited {
+.header__link:visited {
     color: var(--main-title-color);
 }
 
-.Header-link:hover {
+.header__link:hover {
     color: var(--secondary-title-color);
 }
 
-.Header-link:active {
+.header__link:active {
     color: var(--main-title-color);
 }
