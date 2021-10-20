@@ -24,8 +24,8 @@ export default class Projects extends React.Component<unknown, AppState> {
     getProjects(): void {
         this.setState({
             projects: projects.map((project, index) => (
-                <Grid item xs={12} md={6}>
-                    <div className="project" key={'project-' + index}>
+                <Grid item xs={12} md={6} key={'project-' + index}>
+                    <div className="project">
                         <p className="project__name">{project.name}</p>
                         <p className="project__description">{project.desc}</p>
                         <div className="project__links">
