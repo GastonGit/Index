@@ -1,7 +1,7 @@
 [
   {
     "name": "Hot Twitch Clips",
-    "desc": "Automatically clips exciting and funny moments from Twitch in real-time",
+    "desc": "Automatically clips exciting and funny moments from Twitch in real-time.",
     "liveUrl": "/hotclips",
     "github": "https://github.com/GastonGit/Hot-Twitch-Clips"
   },
@@ -13,13 +13,13 @@
   },
   {
     "name": "node-typescript-boilerplate",
-    "desc": "My personal boilerplate for back-end purposes",
+    "desc": "My personal boilerplate for back-end purposes.",
     "liveUrl": null,
     "github": "https://github.com/GastonGit/node-typescript-boilerplate"
   },
   {
     "name": "react-typescript-boilerplate",
-    "desc": "My personal boilerplate for front-end purposes",
+    "desc": "My personal boilerplate for front-end purposes.",
     "liveUrl": null,
     "github": "https://github.com/GastonGit/react-typescript-boilerplate"
   },
