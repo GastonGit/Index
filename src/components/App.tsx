@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/App.css';
-import Projects from './Projects';
 import Description from './Description';
-import { Grid } from '@mui/material';
+import Projects from './Projects';
 import Welcome from './Welcome';
+import '../styles/App.css';
+import Grid from '@mui/material/Grid';
 
 export default class App extends React.Component<unknown, unknown> {
     constructor(props: unknown) {

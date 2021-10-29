@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Projects.css';
+import projects from '../assets/projectData.json';
 import FadeIn from 'react-fade-in';
 import Grid from '@mui/material/Grid';
-import projects from '../assets/projectData.json';
 
 interface AppState {
     projects: Array<JSX.Element>;
