@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Projects.css';
 import projects from '../assets/projectData.json';
-import FadeIn from 'react-fade-in';
 import Grid from '@mui/material/Grid';
 
 interface AppState {
@@ -14,8 +13,6 @@ export default class Projects extends React.Component<unknown, AppState> {
         this.state = { projects: [] };
         this.getProjects = this.getProjects.bind(this);
     }
-
-    private fadeInDelay = 500;
 
     componentDidMount(): void {
         this.getProjects();
@@ -51,11 +48,9 @@ export default class Projects extends React.Component<unknown, AppState> {
         const { projects } = this.state;
 
         return (
-            <FadeIn className="projects" delay={this.fadeInDelay}>
-                <Grid container spacing={1}>
-                    {projects}
-                </Grid>
-            </FadeIn>
+            <Grid container spacing={1}>
+                {projects}
+            </Grid>
         );
     }
 }

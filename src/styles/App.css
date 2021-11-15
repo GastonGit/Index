@@ -22,3 +22,9 @@
     justify-content: center;
     text-align: center;
 }
+
+.projects__fadein {
+    width: 90%;
+
+    margin-top: 20px;
+}

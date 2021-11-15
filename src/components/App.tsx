@@ -4,12 +4,15 @@ import Projects from './Projects';
 import Welcome from './Welcome';
 import '../styles/App.css';
 import Grid from '@mui/material/Grid';
+import FadeIn from 'react-fade-in';
 
 export default class App extends React.Component<unknown, unknown> {
     constructor(props: unknown) {
         super(props);
         this.state = {};
     }
+
+    private projectsFadeInDelay = 500;
 
     render(): JSX.Element {
         return (
@@ -26,7 +29,12 @@ export default class App extends React.Component<unknown, unknown> {
                         <Description />
                     </Grid>
                     <Grid item className="flex--center" xs={12} md={8}>
-                        <Projects />
+                        <FadeIn
+                            className="projects__fadein"
+                            delay={this.projectsFadeInDelay}
+                        >
+                            <Projects />
+                        </FadeIn>
                     </Grid>
                 </Grid>
             </div>
