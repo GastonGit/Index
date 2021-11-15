@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Welcome.css';
-import FadeIn from 'react-fade-in';
 
 export default class Welcome extends React.Component<unknown, unknown> {
     constructor(props: unknown) {
@@ -8,13 +7,7 @@ export default class Welcome extends React.Component<unknown, unknown> {
         this.state = {};
     }
 
-    private fadeInDelay = 60;
-
     render(): JSX.Element {
-        return (
-            <FadeIn className="welcome__title" delay={this.fadeInDelay}>
-                <p>Welcome to GastonGit!</p>
-            </FadeIn>
-        );
+        return <p className="welcome__title">Welcome to GastonGit!</p>;
     }
 }

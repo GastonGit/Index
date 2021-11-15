@@ -13,6 +13,7 @@ export default class App extends React.Component<unknown, unknown> {
     }
 
     private projectsFadeInDelay = 500;
+    private welcomeFadeInDelay = 60;
 
     render(): JSX.Element {
         return (
@@ -23,7 +24,9 @@ export default class App extends React.Component<unknown, unknown> {
                     rowSpacing={{ xs: 0, md: 3 }}
                 >
                     <Grid item xs={12} md={12}>
-                        <Welcome />
+                        <FadeIn delay={this.welcomeFadeInDelay}>
+                            <Welcome />
+                        </FadeIn>
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <Description />
