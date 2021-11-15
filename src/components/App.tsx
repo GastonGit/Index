@@ -12,8 +12,9 @@ export default class App extends React.Component<unknown, unknown> {
         this.state = {};
     }
 
-    private projectsFadeInDelay = 500;
     private welcomeFadeInDelay = 60;
+    private descriptionFadeInDelay = 250;
+    private projectsFadeInDelay = 500;
 
     render(): JSX.Element {
         return (
@@ -29,7 +30,9 @@ export default class App extends React.Component<unknown, unknown> {
                         </FadeIn>
                     </Grid>
                     <Grid item xs={12} md={4}>
-                        <Description />
+                        <FadeIn delay={this.descriptionFadeInDelay}>
+                            <Description />
+                        </FadeIn>
                     </Grid>
                     <Grid item className="flex--center" xs={12} md={8}>
                         <FadeIn
