@@ -7,11 +7,6 @@ import Grid from '@mui/material/Grid';
 import FadeIn from 'react-fade-in';
 
 export default class App extends React.Component<unknown, unknown> {
-    constructor(props: unknown) {
-        super(props);
-        this.state = {};
-    }
-
     private welcomeFadeInDelay = 60;
     private descriptionFadeInDelay = 250;
     private projectsFadeInDelay = 500;
