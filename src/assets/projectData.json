@@ -1,9 +1,9 @@
 [
   {
-    "name": "Hot Twitch Clips",
+    "name": "Lurk",
     "desc": "Automatically clips exciting and funny moments from Twitch in real-time.",
-    "liveUrl": "/hotclips",
-    "github": "https://github.com/GastonGit/Hot-Twitch-Clips"
+    "liveUrl": "/lurk",
+    "github": "https://github.com/GastonGit/Lurk.Client"
   },
   {
     "name": "HangulTrainer",
