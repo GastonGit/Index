@@ -25,7 +25,7 @@
     "react-fade-in": "^2.0.1"
   },
   "dependencies": {
-    "@mui/material": "^5.0.2",
+    "@mui/material": "^5.3.1",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@testing-library/jest-dom": "^5.12.0",
