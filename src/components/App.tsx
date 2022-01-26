@@ -1,5 +1,4 @@
 import React from 'react';
-import Description from './Description';
 import Projects from './Projects';
 import '../styles/App.css';
 import Grid from '@mui/material/Grid';
@@ -28,7 +27,11 @@ export default class App extends React.Component<unknown, unknown> {
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <FadeIn delay={this.descriptionFadeInDelay}>
-                            <Description />
+                            <p className="description__text">
+                                This website showcases my most current projects.
+                                Feel free to check out the releases and live
+                                examples.
+                            </p>
                         </FadeIn>
                     </Grid>
                     <Grid item className="flex--center" xs={12} md={8}>
