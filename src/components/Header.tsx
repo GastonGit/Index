@@ -16,7 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 const pages = [{ name: 'GitHub', href: 'https://github.com/GastonGit' }];
 
 export default function Header(): JSX.Element {
-    const fadeInDelay = 500;
+    const fadeInDelay = 1500;
 
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
         null,

@@ -4,9 +4,9 @@ import '../styles/App.css';
 import { Fade, Grid } from '@mui/material';
 
 export default function App(): JSX.Element {
-    const welcomeFadeInDelay = 60;
-    const descriptionFadeInDelay = 250;
-    const projectsFadeInDelay = 500;
+    const welcomeFadeInDelay = 500;
+    const descriptionFadeInDelay = 1500;
+    const projectsFadeInDelay = 1500;
 
     return (
         <div className="app">
