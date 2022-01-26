@@ -1,7 +1,6 @@
 import React from 'react';
 import Description from './Description';
 import Projects from './Projects';
-import Welcome from './Welcome';
 import '../styles/App.css';
 import Grid from '@mui/material/Grid';
 import FadeIn from 'react-fade-in';
@@ -21,7 +20,10 @@ export default class App extends React.Component<unknown, unknown> {
                 >
                     <Grid item xs={12} md={12}>
                         <FadeIn delay={this.welcomeFadeInDelay}>
-                            <Welcome />
+                            <p className="welcome__title">
+                                Welcome to GastonGit!
+                            </p>
+                            ;
                         </FadeIn>
                     </Grid>
                     <Grid item xs={12} md={4}>

@@ -30,3 +30,9 @@
 
     margin-top: 20px;
 }
+
+.welcome__title{
+    color: var(--main-title-color);
+
+    font-size: 30px;
+}
