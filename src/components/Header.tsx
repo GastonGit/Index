@@ -9,9 +9,9 @@ import {
     Menu,
     MenuItem,
     Toolbar,
+    Fade,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import FadeIn from 'react-fade-in';
 
 const pages = [{ name: 'GitHub', href: 'https://github.com/GastonGit' }];
 
@@ -31,7 +31,11 @@ export default function Header(): JSX.Element {
     };
 
     return (
-        <FadeIn delay={fadeInDelay}>
+        <Fade
+            in={true}
+            timeout={fadeInDelay}
+            easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
+        >
             <AppBar
                 position="static"
                 style={{ background: 'transparent', boxShadow: 'none' }}
@@ -126,6 +130,6 @@ export default function Header(): JSX.Element {
                     </Toolbar>
                 </Container>
             </AppBar>
-        </FadeIn>
+        </Fade>
     );
 }
