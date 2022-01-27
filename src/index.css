@@ -40,11 +40,11 @@ code {
     Scrollbar
 */
 @supports (-moz-appearance:none) {
-  :root { scrollbar-color: #2E282A #FFC914; }
+  :root { scrollbar-color: #2E282A var(--secondary-bg-color); }
 }
 
 ::-webkit-scrollbar {
-  background: #FFC914;
+  background: var(--secondary-bg-color);
 }
 
 ::-webkit-scrollbar-button{
