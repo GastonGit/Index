@@ -1,21 +1,13 @@
-/*
-  #0B0C10
-  #1F2833
-  #C5C6C7
-  #66FCF1
-  #45A29E
- */
-
 * {
   font-family: 'Play', sans-serif;
 }
 
 :root {
-  --main-bg-color: #0B0C10;
-  --main-text-color: #C5C6C7;
-  --main-title-color: #66FCF1;
-  --secondary-bg-color: #1F2833;
-  --secondary-title-color: #45A29E;
+  --main-bg-color: #0A0908;
+  --main-text-color: #F2F4F3;
+  --main-title-color: #49111C;
+  --secondary-bg-color: #A9927D;
+  --secondary-title-color: #5E503F;
 }
 
 body {
