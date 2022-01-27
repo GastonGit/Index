@@ -32,13 +32,13 @@
 }
 
 .welcome__title{
-    color: var(--main-title-color);
+    color: var(--main-text-color);
 
     font-size: 30px;
 }
 
 .description__text{
-    color: var(--main-text-color);
+    color: var(--secondary-text-color);
 
     font-size: 22px;
 }

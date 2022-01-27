@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: space-between;
 
-    border: 2px solid var(--secondary-title-color);
+    border: 2px solid var(--tertiary-bg-color);
     border-radius: 1px;
 }
 
 .project__name {
-    color: var(--main-title-color);
+    color: var(--tertiary-text-color);
 
     font-size: 20px;
     margin-top: 0;
@@ -19,7 +19,7 @@
 }
 
 .project__description {
-    color: var(--main-text-color);
+    color: var(--secondary-text-color);
 
     max-width: 92%;
 
@@ -28,7 +28,7 @@
 }
 
 .project__progress {
-    color: var(--main-text-color);
+    color: var(--tertiary-text-color);
 
     margin-top: 5px;
     margin-bottom: 0;
@@ -46,17 +46,17 @@
 }
 
 .project__link:link {
-    color: var(--secondary-title-color);
+    color: var(--tertiary-text-color);
 }
 
 .project__link:visited {
-    color: var(--secondary-title-color);
+    color: var(--tertiary-text-color);
 }
 
 .project__link:hover {
-    color: var(--main-title-color);
+    color: var(--tertiary-bg-color);
 }
 
 .project__link:active {
-    color: var(--secondary-title-color);
+    color: var(--tertiary-text-color);
 }

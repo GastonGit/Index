@@ -4,10 +4,12 @@
 
 :root {
   --main-bg-color: #0A0908;
-  --main-text-color: #F2F4F3;
-  --main-title-color: #49111C;
-  --secondary-bg-color: #A9927D;
-  --secondary-title-color: #5E503F;
+  --secondary-bg-color: #49111C;
+  --tertiary-bg-color: #5E503F;
+
+  --main-text-color: #942137;
+  --secondary-text-color: #F2F4F3;
+  --tertiary-text-color: #A9927D;
 }
 
 body {
