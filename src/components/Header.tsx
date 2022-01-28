@@ -13,7 +13,10 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = [{ name: 'GitHub', href: 'https://github.com/GastonGit' }];
+const pages = [
+    { name: 'Lurk', href: '/lurk' },
+    { name: 'GitHub', href: 'https://github.com/GastonGit' },
+];
 
 export default function Header(): JSX.Element {
     const fadeInDelay = 1500;
