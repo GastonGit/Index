@@ -12,6 +12,7 @@ import {
     Fade,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import mainImage from '../assets/main.png';
 
 const pages = [
     { name: 'Lurk', href: '/lurk' },
@@ -41,21 +42,38 @@ export default function Header(): JSX.Element {
         >
             <AppBar
                 position="static"
-                style={{ background: 'transparent', boxShadow: 'none' }}
+                style={{
+                    background: 'transparent',
+                    boxShadow: 'none',
+                }}
             >
                 <Container maxWidth="md">
-                    <Toolbar disableGutters>
+                    <Toolbar
+                        disableGutters
+                        sx={{
+                            display: {
+                                height: '69px',
+                            },
+                        }}
+                    >
                         <Link
                             href="/"
                             variant="h6"
                             underline="none"
                             color="white"
                             sx={{
-                                display: { md: 'flex' },
+                                flexGrow: 1,
+                                display: {
+                                    md: 'flex',
+                                    xs: 'flex',
+                                    height: '60%',
+                                    width: '150px',
+                                },
                             }}
                         >
-                            GastonGit
+                            <img src={mainImage} alt={'main'} />
                         </Link>
+
                         <Box
                             sx={{
                                 flexGrow: 1,
