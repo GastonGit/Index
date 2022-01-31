@@ -3,13 +3,13 @@
 }
 
 :root {
-  --main-bg-color: #0A0908;
-  --secondary-bg-color: #49111C;
-  --tertiary-bg-color: #5E503F;
+  --main-bg-color: #272727;
+  --secondary-bg-color: #202020;
+  --tertiary-bg-color: #353535;
 
-  --main-text-color: #942137;
+  --main-text-color: #b3243f;
   --secondary-text-color: #F2F4F3;
-  --tertiary-text-color: #A9927D;
+  --tertiary-text-color: #b3243f;
 }
 
 body {
