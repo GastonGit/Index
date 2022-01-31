@@ -4,11 +4,15 @@ import App from './components/App';
 import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import Projects from './components/Projects';
 ReactDOM.render(
     <React.StrictMode>
         <div id="main">
             <Header />
             <App />
+        </div>
+        <div id="projects-section">
+            <Projects />
         </div>
     </React.StrictMode>,
     document.getElementById('root'),

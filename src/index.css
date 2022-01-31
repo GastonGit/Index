@@ -28,6 +28,11 @@ body {
   padding-bottom: 50px;
 }
 
+#projects-section{
+  background-color: var(--secondary-bg-color);
+  padding-bottom: 50px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
