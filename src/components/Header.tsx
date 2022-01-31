@@ -12,7 +12,6 @@ import {
     Fade,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import mainImage from '../assets/main.png';
 
 const pages = [
     { name: 'Lurk', href: '/lurk' },
@@ -71,7 +70,7 @@ export default function Header(): JSX.Element {
                                 },
                             }}
                         >
-                            <img src={mainImage} alt={'main'} />
+                            GastonGit
                         </Link>
 
                         <Box
