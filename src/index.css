@@ -24,10 +24,7 @@ body {
 }
 
 #main {
-  background-image: url("./assets/BG01.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
+  background-color: var(--main-bg-color);
   padding-bottom: 50px;
 }
 
