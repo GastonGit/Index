@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  min-height: 100vh;
+  padding-bottom: 50px;
 }
 
 code {
