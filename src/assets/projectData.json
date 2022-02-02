@@ -1,11 +1,5 @@
 [
   {
-    "name": "Lurk",
-    "desc": "Automatically clips exciting and funny moments from Twitch in real-time.",
-    "liveUrl": "/lurk",
-    "github": "https://github.com/GastonGit/Lurk.Client"
-  },
-  {
     "name": "HangulTrainer",
     "desc": "A simple game for learning the korean alphabet hangul.",
     "liveUrl": "https://github.com/GastonGit/HangulTrainer/releases/tag/v0.1.1",
