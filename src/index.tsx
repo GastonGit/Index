@@ -7,6 +7,7 @@ import './index.css';
 import Projects from './components/Projects';
 import { Fade } from '@mui/material';
 import Lurk from './components/Lurk';
+import Boilerplates from './components/Boilerplates';
 
 const fadeInDelay = 1000;
 
@@ -29,6 +30,15 @@ ReactDOM.render(
         >
             <div id="lurk-section">
                 <Lurk />
+            </div>
+        </Fade>
+        <Fade
+            in={true}
+            timeout={fadeInDelay}
+            easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
+        >
+            <div id="boilerplate-section">
+                <Boilerplates />
             </div>
         </Fade>
         <Fade

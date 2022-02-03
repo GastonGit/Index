@@ -6,18 +6,6 @@
     "github": "https://github.com/GastonGit/HangulTrainer"
   },
   {
-    "name": "node-typescript-boilerplate",
-    "desc": "My personal boilerplate for back-end purposes.",
-    "liveUrl": null,
-    "github": "https://github.com/GastonGit/node-typescript-boilerplate"
-  },
-  {
-    "name": "react-typescript-boilerplate",
-    "desc": "My personal boilerplate for front-end purposes.",
-    "liveUrl": null,
-    "github": "https://github.com/GastonGit/react-typescript-boilerplate"
-  },
-  {
     "name": "GastonGit.com",
     "desc": "A simple website for showcasing my projects, it is also the website you are currently visiting.",
     "liveUrl": "https://gastongit.com",
