@@ -24,6 +24,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+#header {
+  background-color: var(--main-bg-color);
+}
+
 #main {
   background-color: var(--main-bg-color);
   padding-bottom: 50px;

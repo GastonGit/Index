@@ -40,9 +40,15 @@ export default function Header(): JSX.Element {
             easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
         >
             <AppBar
-                position="static"
+                sx={{
+                    position: {
+                        md: 'sticky',
+                        xs: 'static',
+                    },
+                    top: 0,
+                }}
                 style={{
-                    background: 'transparent',
+                    background: '#272727',
                     boxShadow: 'none',
                 }}
             >
