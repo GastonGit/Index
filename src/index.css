@@ -30,24 +30,23 @@ body {
 
 #main {
   background-color: var(--main-bg-color);
+}
+
+.section {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 #projects-section{
   background-color: var(--main-bg-color);
-  padding-bottom: 50px;
 }
 
 #lurk-section{
   background-color: var(--tertiary-bg-color);
-  padding-bottom: 50px;
-  padding-top: 50px;
 }
 
 #boilerplate-section{
   background-color: var(--secondary-bg-color);
-  padding-bottom: 50px;
-  padding-top: 50px;
 }
 
 

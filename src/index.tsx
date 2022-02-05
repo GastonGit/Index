@@ -28,7 +28,7 @@ ReactDOM.render(
             timeout={fadeInDelay}
             easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
         >
-            <div id="lurk-section">
+            <div id="lurk-section" className="section">
                 <Lurk />
             </div>
         </Fade>
@@ -37,7 +37,7 @@ ReactDOM.render(
             timeout={fadeInDelay}
             easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
         >
-            <div id="boilerplate-section">
+            <div id="boilerplate-section" className="section">
                 <Boilerplates />
             </div>
         </Fade>
@@ -46,7 +46,7 @@ ReactDOM.render(
             timeout={fadeInDelay}
             easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
         >
-            <div id="projects-section">
+            <div id="projects-section" className="section">
                 <Projects />
             </div>
         </Fade>
