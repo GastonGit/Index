@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
-import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import Projects from './components/Projects';
 import { Fade } from '@mui/material';
+import Header from './components/Header';
+import App from './components/App';
 import Lurk from './components/Lurk';
 import Boilerplates from './components/Boilerplates';
+import Projects from './components/Projects';
 
 const fadeInDelay = 1000;
 
@@ -54,7 +54,4 @@ ReactDOM.render(
     document.getElementById('root'),
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
