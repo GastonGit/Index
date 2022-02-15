@@ -19,7 +19,7 @@ const pages = [
 ];
 
 export default function Header(): JSX.Element {
-    const fadeInDelay = 1500;
+    const fadeInDelay = 500;
 
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
         null,

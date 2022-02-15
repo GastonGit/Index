@@ -9,7 +9,7 @@ import Lurk from './components/Lurk';
 import Boilerplates from './components/Boilerplates';
 import Projects from './components/Projects';
 
-const fadeInDelay = 1000;
+const fadeInDelay = 500;
 
 ReactDOM.render(
     <React.StrictMode>
