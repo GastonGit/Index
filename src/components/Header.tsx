@@ -34,23 +34,23 @@ export default function Header(): JSX.Element {
     };
 
     return (
-        <Fade
-            in={true}
-            timeout={fadeInDelay}
-            easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
+        <AppBar
+            sx={{
+                position: {
+                    md: 'sticky',
+                    xs: 'static',
+                },
+                top: 0,
+            }}
+            style={{
+                background: '#272727',
+                boxShadow: 'none',
+            }}
         >
-            <AppBar
-                sx={{
-                    position: {
-                        md: 'sticky',
-                        xs: 'static',
-                    },
-                    top: 0,
-                }}
-                style={{
-                    background: '#272727',
-                    boxShadow: 'none',
-                }}
+            <Fade
+                in={true}
+                timeout={fadeInDelay}
+                easing={'cubic-bezier(0.25, 0.1, 0.25, 0.1)'}
             >
                 <Container maxWidth="md">
                     <Toolbar
@@ -155,7 +155,7 @@ export default function Header(): JSX.Element {
                         </Box>
                     </Toolbar>
                 </Container>
-            </AppBar>
-        </Fade>
+            </Fade>
+        </AppBar>
     );
 }
